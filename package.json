@@ -1,10 +1,11 @@
 {
-  "name": "ilms-helper",
+  "name": "seekrtech-intern-backend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node src/server.js",
-    "watch": "nodemon src/server.js"
+    "watch": "nodemon src/server.js",
+    "deploy": "now --public && now alias"
   },
   "devDependencies": {
     "eslint": "5.3.0",
